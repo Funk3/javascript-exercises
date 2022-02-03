@@ -13,14 +13,14 @@ const sumAll = function(start, end) {
                 numberRange.push(firstNumber);
                 }
     }   else (start > end ) ;{
-        for (let firstNumber = start; firstNumber >= end; firstNumber--) {
-            numberRange.push(firstNumber);
+                for (let firstNumber = start; firstNumber >= end; firstNumber--) {
+                numberRange.push(firstNumber);
     }
                 if (typeof(start) != 'number' || typeof(end) != 'number' || start <=0 || end <=0) {
-                return ('ERROR');
+                    return ('ERROR');
                 }   else  {
-                numberRange.forEach(addthis);
-                return sum;
+                        numberRange.forEach(addthis);
+                        return sum;
                 }
     }
 }
