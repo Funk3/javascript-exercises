@@ -1,14 +1,10 @@
-const add = function() {
+const add = (...args) => args[0] + args[1];
 	
-};
+const subtract = (...args) => args[0] - args[1];
 
-const subtract = function() {
-	
-};
-
-const sum = function() {
-	
-};
+const sum = function sum() {
+  
+}
 
 const multiply = function() {
 
